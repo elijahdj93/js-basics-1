@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+let gitDefinition = "Tool for keeping track of changes and updates to code I work on"
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+let gitHubDefinition = "Kind of like cloud storage for my code and online version control"
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -34,6 +36,10 @@
 */
 
 //CODE HERE
+const init = {
+    description: "creates a new git repo",
+    code: "git init"
+};
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -42,6 +48,10 @@
 */
 
 //CODE HERE
+const clone = {
+    description: "clones an exsisting repo",
+    code: "git clone"
+};
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -50,6 +60,10 @@
 */
 
 //CODE HERE
+const status = {
+    description: "lets you see what changes have been staged and not staged",
+    code: "git status"
+};
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +72,10 @@
 */
 
 //CODE HERE
+const add = {
+    description: "adds changes in the working directory to the staging area",
+    code: "git add ."
+};
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,7 +84,10 @@
 */
 
 //CODE HERE
-
+const commit = {
+    description: "captures a snapshot of the code in stage",
+    code: "git commit -m 'comment' "
+};
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +96,7 @@
 */
 
 //CODE HERE
+const push = {
+    description: "Uploads the local repo to a remote repo",
+    code: "git push"
+};
